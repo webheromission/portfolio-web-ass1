@@ -39,6 +39,7 @@
     text-align: left;
   }
   .mission {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     background-color: pink;
     margin: 20px;
@@ -47,10 +48,10 @@
     align-items: left;
   }
   .mission h1 {
-      font-size: 50px;
+      font-size: 30px;
   }
   .mission p{
-    font-size: 30px;
+    font-size: 20px;
     align-items: left;
   }
   .mission img {

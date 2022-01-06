@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/*--- First Section */
+
+.navbar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-four-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
+}
+.left-border {
+    border-left: 5px solid rgb(235, 63, 11);
+    padding-left: 5px;
+    border-top-width: 50px;
+    font-size: 60px;
+}
+.orange-color-head {
+    color: rgb(235, 63, 11);
+}
+
+.section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px
+}
+/*----Second Section-----*/
+.center {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .target-main {
+    display: flex;
+    justify-items: center;
+    text-align: left;
+  }
+  .mission {
+    width: 100%;
+    background-color: pink;
+    margin: 20px;
+    border-radius: 35px;
+    padding: 2%;
+    align-items: left;
+  }
+  .mission h1 {
+      font-size: 50px;
+  }
+  .mission p{
+    font-size: 30px;
+    align-items: left;
+  }
+  .mission img {
+    width: 90%;
+  }
+
+/*Third Section Work */
+
+.image-content {
+    background-image: url(./images/shapes/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-content img {
+    width: 90%;
+    padding-left: 10%;
+}
+.content-area {
+    float: right;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.content-area h1 {
+    font-size: 50px;
+}
+.content-area p {
+    font-size: 30px;
+}
+.orange-color {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+}
+/*...Four section work continue.. */
+
+.content-area-four {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.content-area-four h1 {
+    font-size: 50px;
+}
+.content-area-four p {
+    font-size: 30px;
+}
+
+.images img {
+    width: 90%;
+    padding-right: 10%;
+}
+
+/*--Contact Form--*/
+.contact {
+    font-family: 'poppins' sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  form {
+    background: rgb(245, 216, 221);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  form h1 {
+    color: rgb(243, 83, 9);
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+  }
+  form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #8f8c8c;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto o;
+    border-radius: 30px;
+  }
+
+
+  /*--Footer section work--*/
+
+.lastsection {
+    margin-top: 30px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    background-color: rgb(109, 96, 96);
+    color: white;
+    text-align: center;
+    font-style: italic;
+ }
+ .footer:hover {
+     display: block;
+ }
